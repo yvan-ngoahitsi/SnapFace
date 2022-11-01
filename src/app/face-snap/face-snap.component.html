@@ -1,0 +1,7 @@
+
+<div class="face-snap-card" [ngClass]="{ snapped: buttonText === 'Oops, unSnap!' }">
+    <!-- <p>{{ 0.477 | percent}}</p> -->
+    <h2>{{ faceSnap.title | uppercase }}</h2>
+    <p>{{ faceSnap.description }}</p>
+    <button (click)="onViewFaceSnap()">View</button>
+</div>
